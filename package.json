@@ -1,0 +1,26 @@
+{
+  "name": "ui-ligh",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "mori": "^0.3.2",
+    "snabbdom": "^0.5.3"
+  },
+  "devDependencies": {
+    "babel": "^6.5.2",
+    "babel-preset-es2015": "^6.14.0",
+    "babelify": "^7.3.0",
+    "browserify": "^13.1.0",
+    "expect": "^1.20.2",
+    "express": "^4.14.0",
+    "mocha": "^3.0.2",
+    "node-sass": "^3.8.0",
+    "onchange": "^2.5.0",
+    "parallelshell": "^2.0.0",
+    "sinon": "^1.17.6",
+    "watchify": "^3.7.0"
+  }
+}
