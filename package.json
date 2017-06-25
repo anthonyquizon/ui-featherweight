@@ -9,7 +9,8 @@
     "build": "babel src/js/ -d build/",
     "build/examples": "babel examples/js/ -d build/",
     "server/examples": "http-server examples -p 8899",
-    "flow": "flow"
+    "flow": "flow",
+    "flow-typed": "flow-typed"
   },
   "dependencies": {
     "lodash": "^4.17.4",
@@ -20,6 +21,7 @@
     "babel-cli": "^6.24.1",
     "babel-preset-flow": "^6.23.0",
     "flow-bin": "^0.48.0",
+    "flow-typed": "^2.1.2",
     "http-server": "^0.10.0"
   }
 }
