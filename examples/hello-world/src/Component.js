@@ -1,6 +1,6 @@
 //@flow
-import C from 'Control/Node/Component';
-import D from 'Control/Node/DOM';
+import C from 'UI/Node/Component';
+import D from 'UI/Node/DOM';
 import _ from 'mori/mori';
 
 const component = C.Component({ 

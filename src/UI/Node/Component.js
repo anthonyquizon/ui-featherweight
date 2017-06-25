@@ -24,7 +24,7 @@ function run(C, data, children, prev) {
     };
 }
 
-function Component(C) {
+function Component(C : any) : any { //TODO Fix: type annotation
     let prev = null;
 
     return (data, children) => {

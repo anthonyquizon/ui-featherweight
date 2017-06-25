@@ -1,9 +1,9 @@
 //@flow
-import Runner from 'Control/Runner';
-import Component from 'Component';
+import E from 'UI/Engine';
+import C from './Component';
 
 const db = _.toClj({ count: 0 });
 
 window.runApp = () => {
-    Runner.run({ Component, db, appId: 'app' });
+    E.run({ C, db, appId: 'app' });
 };

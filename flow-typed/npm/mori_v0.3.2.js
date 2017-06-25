@@ -1,4 +1,11 @@
 //@flow
+/*
+ * Type definitions for [Mori][], for use with Flow type checker
+ *
+ * Mori: https://swannodette.github.io/mori/
+ *
+ * by Jesse Hallett <jesse@sitr.us>
+ */
 
 declare module mori {
 

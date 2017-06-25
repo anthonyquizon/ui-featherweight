@@ -1,7 +1,7 @@
-import Renderer from 'Control/Renderer';
-import R from 'Control/Reconciler';
+//@flow
+import Renderer from 'UI/Renderer';
+import R from 'UI/Reconciler';
 import _ from 'mori/mori';
-
 
 function update({ Component, model, force=true, appId='app' }) {
     const model1 = R.update(model);

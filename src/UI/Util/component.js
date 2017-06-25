@@ -1,4 +1,4 @@
-import D from 'Control/Node/DOM';
+import D from 'UI/Node/DOM';
 import _ from 'mori/mori';
 
 function match(model, list) {

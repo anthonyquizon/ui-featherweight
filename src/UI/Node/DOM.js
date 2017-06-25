@@ -1,5 +1,5 @@
 //@flow
-import N from 'Control/Node/Core';
+import N from 'UI/Node/Core';
 import _ from 'mori/mori';
 
 const tags = [
@@ -18,4 +18,6 @@ function exports() {
     }, {});
 }
 
-export { exports }; //TODO
+//TODO explicitly type tags
+
+export { exports }; 
