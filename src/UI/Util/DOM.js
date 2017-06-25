@@ -1,4 +1,3 @@
-
 function on(ev, fn) {
     const props = { on: {} };
     props.on[ev] = fn;

@@ -1,4 +1,3 @@
-//@flow
 import _ from 'mori/mori';
 
 let Queue = [];

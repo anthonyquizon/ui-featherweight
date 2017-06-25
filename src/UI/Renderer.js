@@ -1,4 +1,3 @@
-//@flow
 import snabbdom from 'snabbdom/snabbdom.js';
 import module_props from 'snabbdom/modules/props';
 import module_class from 'snabbdom/modules/class';

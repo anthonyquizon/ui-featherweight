@@ -1,4 +1,3 @@
-//@flow
 import h from 'snabbdom/h';
 import _ from 'mori/mori';
 

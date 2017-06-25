@@ -1,4 +1,3 @@
-//@flow
 import Renderer from 'UI/Renderer';
 import R from 'UI/Reconciler';
 import _ from 'mori/mori';
