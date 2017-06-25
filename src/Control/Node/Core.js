@@ -1,5 +1,6 @@
-const h = require('snabbdom/h');
-const _ = require('mori/mori');
+//@flow
+import h from 'snabbdom/h';
+import _ from 'mori/mori';
 
 function arrRes(xs) {
     if (Array.isArray(xs)) {

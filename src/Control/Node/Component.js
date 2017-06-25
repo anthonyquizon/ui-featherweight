@@ -1,4 +1,5 @@
-const _ = require('mori/mori');
+//@flow
+import _ from 'mori/mori';
 
 function run(C, data, children, prev) {
     const model = (data && data.model) || null;
@@ -34,6 +35,4 @@ function Component(C) {
     };
 }
 
-module.exports = { 
-    Component
-};
+export { Component };

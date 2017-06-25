@@ -1,5 +1,5 @@
-const D = require('Control/Node/DOM');
-const _ = require('mori/mori');
+import D from 'Control/Node/DOM';
+import _ from 'mori/mori';
 
 function match(model, list) {
     const empty = { Component: () => D.div() };
@@ -13,6 +13,4 @@ function match(model, list) {
     return x.Component({ model });
 }
 
-module.exports = {
-    match
-};
+export { match };

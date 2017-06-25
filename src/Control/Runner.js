@@ -1,6 +1,6 @@
-const Renderer = require('Control/Renderer');
-const R = require('Control/Reconciler');
-const _ = require('mori/mori');
+import Renderer from 'Control/Renderer';
+import R from 'Control/Reconciler';
+import _ from 'mori/mori';
 
 
 function update({ Component, model, force=true, appId='app' }) {
@@ -27,7 +27,5 @@ function run({ Component, updates, db, appId }) {
     }(db, true));
 }
 
-module.exports = { 
-    run, update 
-};
+export { run, update };
 

@@ -1,5 +1,6 @@
-const N = require('Control/Node/Core');
-const _ = require('mori/mori');
+//@flow
+import N from 'Control/Node/Core';
+import _ from 'mori/mori';
 
 const tags = [
     'div', 'span', 'a', 'p', 'h1', 'h2', 'h3', 'h4', 'h5', 
@@ -17,4 +18,4 @@ function exports() {
     }, {});
 }
 
-module.exports = exports();
+export { exports }; //TODO

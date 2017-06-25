@@ -1,11 +1,9 @@
-const uE = require('Util/expect');
-const _ = require('mori/mori');
+//@flow
+import _ from 'mori/mori';
 
 let Queue = [];
 
 function dispatch(queue) {
-    uE.check([[queue, Array, Function]]);
-
     Queue = Queue.concat(queue);
 }
 
@@ -25,15 +23,10 @@ function update(model0) {
     return queue.reduce((acc, update) => {
         const model1 = update(acc)(model0);
 
-        uE.check([[model1, uE.HashMap]]);
+        assert(_.isMap(model1), 'Component doesn\'t return hashmap')
 
         return model1;
     }, model0);
 }
 
-module.exports = {
-    init: init,
-    destroy: destroy,
-    update: update,
-    dispatch: dispatch
-};
+export { init, destroy, update, dispatch };
